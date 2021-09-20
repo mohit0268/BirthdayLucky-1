@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+ text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width:80%;
+  margin:auto;
+  border: 1px solid gray;
+  border-radius: 30px;
+
+}
+.section{
+  position: absolute;
+  top:0;
+  left:0;
+  height:50vh;
+  width:30%;
+  border:1px solid red;
+  border-radius: 30px;
+
+}
